@@ -45,19 +45,22 @@ https://omarbenhaddouch.github.io/hourly/dashboard
 - 🟢🟡🔴 Automatically show machine performance status
 - 🏷️ Add downtime reason tags
 <img width="1169" height="2048" alt="image" src="https://github.com/user-attachments/assets/9bb2bb32-b5c3-4f39-8535-bcddc34c2938" />
+- Password-protected data clearing to prevent accidental loss of shift records 
+<img width="1179" height="1865" alt="image" src="https://github.com/user-attachments/assets/d4b5ee77-86ee-4652-ad8c-c726895f04ff" />
+
+### password : 1234
 
 - ☁️ Automatically save production data to Firebase every 1s
 - 📈 View live production data in the Manager Dashboard
 - 🔄 Real-time synchronization between devices
 - 📱 Responsive design for phones, tablets, and computers
 
-## 3. What the App Does
+## 2. What the App Does
 
 ### Data Entry (operator/team leader view)
 - Select **date**, **shift** (A/B/C/D), and **hour block**.
 - Log actual production per machine against target, across all 21 machines (MSA01–MSA21).
 - Add machine rows as needed; save, load, and clear entries per shift.
-- Password-protected data clearing to prevent accidental loss of shift records.
 - Shift log view to review what has been entered for a given shift/date.
 
 ### Manager Dashboard (live view)
@@ -69,6 +72,48 @@ https://omarbenhaddouch.github.io/hourly/dashboard
 - **Cumulative production trend** over the shift.
 - **Top 5 machines by output** ranking.
 - Installable as a PWA (Progressive Web App) — can be added to a phone/tablet home screen and used like a native app, including on iPhone/iPad.
+
+# 🖼️ End-of-Shift Report
+
+## 📸 Report Button
+
+At the end of the shift, click the **Report** button in the top action bar. This function automatically creates a professional **A4 Landscape production report** as a PNG image.
+
+<img width="2048" height="1448" alt="image" src="https://github.com/user-attachments/assets/2ea31d3e-5fb0-4371-9110-3b00d30ccc9b" />
+
+
+### How the Report Works
+
+1. Complete the hourly production data for the shift.
+2. Make sure the correct **Date** and **Shift** are selected.
+3. Click **Report**.
+4. The application automatically collects all machine data and calculates the final shift summary.
+5. A formatted **A4 Landscape report image** is generated.
+6. Depending on the device, the user can **Share**, **Save**, or **Download** the PNG report.
+
+### 📊 Information Included in the Generated Report
+
+The end-of-shift report automatically includes:
+
+- 🏭 Company and application header
+- 📅 Production date
+- 🔤 Shift letter
+- 🕒 Report generation time
+- 🎯 **Total Plan**
+- 📦 **Total Actual Production**
+- 📈 **Overall Efficiency / OEE percentage**
+- 🟢 Number of machines **On Target**
+- 🔴 Number of machines **Off Target**
+- ⚠️ Number of machines with logged issues/comments
+- 👷 Operator number for every machine
+- 🧩 Part name for every machine
+- 🎯 Target per hour
+- ⏱️ All hourly production values (H1–H8)
+- 🧮 Planned and actual totals for every machine
+- 🏷️ Comments and downtime tags
+- 📊 Final totals row
+- 🔐 Generated timestamp and report footer
+
 
 ## 4. How It Works (Technical Overview)
 
