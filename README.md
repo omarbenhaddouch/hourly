@@ -50,7 +50,7 @@ https://omarbenhaddouch.github.io/hourly/dashboard
 - Password-protected data clearing to prevent accidental loss of shift records 
 <img width="1179" height="1865" alt="image" src="https://github.com/user-attachments/assets/d4b5ee77-86ee-4652-ad8c-c726895f04ff" />
 
-### password : 1234
+**password : 1234**
 
 - ☁️ Automatically save production data to Firebase every 1s
 - 📈 View live production data in the Manager Dashboard
