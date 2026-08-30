@@ -7,25 +7,49 @@
 This tool digitizes and automates hourly production tracking on the SW CNC line, replacing manual paper shift logs with a live, shared, web-based system. It gives operators a fast way to record hourly output per machine, and gives supervisors and management a real-time, visual view of line performance (OEE, efficiency, actual vs. target) without waiting for end-of-shift reports.
 
 
-Live app: https://omarbenhaddouch.github.io/hourly
+## 📸 Application Preview
 
+## Live app: 
+https://omarbenhaddouch.github.io/hourly
+### 📱 Mobile View
 <img width="2358" height="5112" alt="image" src="https://github.com/user-attachments/assets/803c5d32-28b2-4dca-9e5c-588227f058a6" />
 
-Manager Dashboard: https://omarbenhaddouch.github.io/hourly/dashboard
+### Manager Dashboard: 
+https://omarbenhaddouch.github.io/hourly/dashboard
 
-Phone:
 <img width="2358" height="5112" alt="image" src="https://github.com/user-attachments/assets/96b8f8d1-4834-476d-9033-c1bf55252dc6" />
-Laptop:
+
+### 💻 Desktop / Manager Dashboard:
+
 <img width="7680" height="4320" alt="image" src="https://github.com/user-attachments/assets/31e60342-33b0-4ca6-93d9-38d4a33857e2" />
 
 
 
-## 2. Problem It Solves
+# 🚀 Main Features
 
-- Paper-based hourly logs are slow to fill in, easy to lose, and only visible after the fact.
-- Machine performance issues (a machine falling behind target) are often noticed hours late.
-- Comparing output across 21 machines and 4 shifts by hand is time-consuming and error-prone.
-- Management has no live visibility into the floor without physically walking it or waiting for shift-end summaries.
+- 📅 Select production **date and shift**
+<img width="2048" height="572" alt="Untitled design" src="https://github.com/user-attachments/assets/15668239-c07c-430f-866b-4013aa664933" />
+
+
+
+- 🏭 Monitor **21 CNC machines**
+- 👷 Record the operator number (matricule) for each machine
+<img width="500" height="759" alt="image" src="https://github.com/user-attachments/assets/9bdde946-f3bf-45f3-b510-0dedda4ee0b0" />
+
+- 🔧 Select the part/project running on each machine
+<img width="457" height="658" alt="image" src="https://github.com/user-attachments/assets/996f04a5-8f95-469c-9e38-8a2aa4bbdb23" />
+
+- 🎯 Automatically apply the production target per hour
+- ⏱️ Enter production for up to **8 hourly periods**
+- 📊 Automatically calculate planned production and actual production
+- 🟢🟡🔴 Automatically show machine performance status
+- 🏷️ Add downtime reason tags
+<img width="1169" height="2048" alt="image" src="https://github.com/user-attachments/assets/9bb2bb32-b5c3-4f39-8535-bcddc34c2938" />
+
+- ☁️ Automatically save production data to Firebase every 1s
+- 📈 View live production data in the Manager Dashboard
+- 🔄 Real-time synchronization between devices
+- 📱 Responsive design for phones, tablets, and computers
 
 ## 3. What the App Does
 
