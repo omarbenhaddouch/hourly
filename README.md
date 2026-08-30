@@ -2,7 +2,7 @@
 # Hourly Production Monitoring Dashboard
 **CITIC Dicastal — SW CNC Production Line**
 
-Live app: https://omarbenhaddouch.github.io/hourly/
+Live app: https://omarbenhaddouch.github.io/hourly
 <img width="2358" height="5112" alt="image" src="https://github.com/user-attachments/assets/803c5d32-28b2-4dca-9e5c-588227f058a6" />
 
 Manager Dashboard: https://omarbenhaddouch.github.io/hourly/dashboard
