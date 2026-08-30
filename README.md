@@ -2,7 +2,13 @@
 # Hourly Production Monitoring Dashboard
 **CITIC Dicastal — SW CNC Production Line**
 
+## 1. Purpose
+
+This tool digitizes and automates hourly production tracking on the SW CNC line, replacing manual paper shift logs with a live, shared, web-based system. It gives operators a fast way to record hourly output per machine, and gives supervisors and management a real-time, visual view of line performance (OEE, efficiency, actual vs. target) without waiting for end-of-shift reports.
+
+
 Live app: https://omarbenhaddouch.github.io/hourly
+
 <img width="2358" height="5112" alt="image" src="https://github.com/user-attachments/assets/803c5d32-28b2-4dca-9e5c-588227f058a6" />
 
 Manager Dashboard: https://omarbenhaddouch.github.io/hourly/dashboard
@@ -13,9 +19,6 @@ Laptop:
 <img width="7680" height="4320" alt="image" src="https://github.com/user-attachments/assets/31e60342-33b0-4ca6-93d9-38d4a33857e2" />
 
 
-## 1. Purpose
-
-This tool digitizes and automates hourly production tracking on the SW CNC line, replacing manual paper shift logs with a live, shared, web-based system. It gives operators a fast way to record hourly output per machine, and gives supervisors and management a real-time, visual view of line performance (OEE, efficiency, actual vs. target) without waiting for end-of-shift reports.
 
 ## 2. Problem It Solves
 
