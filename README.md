@@ -5,7 +5,7 @@
 Live app: https://omarbenhaddouch.github.io/hourly/
 <img width="2358" height="5112" alt="image" src="https://github.com/user-attachments/assets/803c5d32-28b2-4dca-9e5c-588227f058a6" />
 
-Manager Dashboard: https://omarbenhaddouch.github.io/hourly/dashboard.html
+Manager Dashboard: https://omarbenhaddouch.github.io/hourly/dashboard
 
 Phone:
 <img width="2358" height="5112" alt="image" src="https://github.com/user-attachments/assets/96b8f8d1-4834-476d-9033-c1bf55252dc6" />
