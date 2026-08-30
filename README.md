@@ -2,7 +2,7 @@
 # Hourly Production Monitoring Dashboard
 **CITIC Dicastal — SW CNC Production Line**
 
-## 1. Purpose
+## Purpose
 
 This tool digitizes and automates hourly production tracking on the SW CNC line, replacing manual paper shift logs with a live, shared, web-based system. It gives operators a fast way to record hourly output per machine, and gives supervisors and management a real-time, visual view of line performance (OEE, efficiency, actual vs. target) without waiting for end-of-shift reports.
 
@@ -34,9 +34,11 @@ https://omarbenhaddouch.github.io/hourly/dashboard
 
 - 🏭 Monitor **21 CNC machines**
 - 👷 Record the operator number (matricule) for each machine
+  
 <img width="500" height="759" alt="image" src="https://github.com/user-attachments/assets/9bdde946-f3bf-45f3-b510-0dedda4ee0b0" />
 
 - 🔧 Select the part/project running on each machine
+  
 <img width="457" height="658" alt="image" src="https://github.com/user-attachments/assets/996f04a5-8f95-469c-9e38-8a2aa4bbdb23" />
 
 - 🎯 Automatically apply the production target per hour
@@ -55,13 +57,6 @@ https://omarbenhaddouch.github.io/hourly/dashboard
 - 🔄 Real-time synchronization between devices
 - 📱 Responsive design for phones, tablets, and computers
 
-## 2. What the App Does
-
-### Data Entry (operator/team leader view)
-- Select **date**, **shift** (A/B/C/D), and **hour block**.
-- Log actual production per machine against target, across all 21 machines (MSA01–MSA21).
-- Add machine rows as needed; save, load, and clear entries per shift.
-- Shift log view to review what has been entered for a given shift/date.
 
 ### Manager Dashboard (live view)
 - Real-time clock and auto-refreshing data (updates every second) — always current, no manual refresh needed.
@@ -90,6 +85,16 @@ At the end of the shift, click the **Report** button in the top action bar. This
 4. The application automatically collects all machine data and calculates the final shift summary.
 5. A formatted **A4 Landscape report image** is generated.
 6. Depending on the device, the user can **Share**, **Save**, or **Download** the PNG report.
+
+Example generated filename:
+
+```text
+monitoring_2026-08-30_shiftA.png
+```
+
+This makes the Report function useful for **end-of-shift documentation, supervisor review, production meetings, and sending the final shift results to management**.
+
+---
 
 ### 📊 Information Included in the Generated Report
 
@@ -121,7 +126,7 @@ The end-of-shift report automatically includes:
 - **Charts:** Chart.js for all live visualizations.
 - **Backend / Data:** Firebase (project `factory-monitor-70095`) — real-time database so data entered on one device appears instantly on the manager dashboard on another.
 - **Design:** Dark industrial HUD-style interface (glassmorphism panels, cyan/green/red status colors, monospace + technical fonts) designed to be readable at a glance on the shop floor and in the office.
-- **Hosting:** Deployed via Netlify, accessible from any browser — desktop, tablet, or phone — no installation required (with optional PWA install for quick access).
+- **Hosting:** Deployed via Github.
 
 ## 5. Scope
 
@@ -146,4 +151,11 @@ This is a working, actively used prototype. Suggested next steps for wider rollo
 - Evaluate integrating with existing plant systems if/when needed.
 
 ---
-*Developed internally by Omar — Machining / SW CNC Production Line Department.*
+
+# 👨‍💻 Developed By
+
+**Omar Ben Haddouch**
+
+---
+
+⭐ If you find this project useful, feel free to improve it, add new production features, and adapt it to other manufacturing lines.
