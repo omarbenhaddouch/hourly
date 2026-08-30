@@ -47,7 +47,9 @@ https://omarbenhaddouch.github.io/hourly/dashboard
 - 🟢🟡🔴 Automatically show machine performance status
 - 🏷️ Add downtime reason tags
 <img width="1169" height="2048" alt="image" src="https://github.com/user-attachments/assets/9bb2bb32-b5c3-4f39-8535-bcddc34c2938" />
-- Password-protected data clearing to prevent accidental loss of shift records 
+
+- Password-protected data clearing to prevent accidental loss of shift records
+
 <img width="1179" height="1865" alt="image" src="https://github.com/user-attachments/assets/d4b5ee77-86ee-4652-ad8c-c726895f04ff" />
 
 **password : 1234**
@@ -120,21 +122,14 @@ The end-of-shift report automatically includes:
 - 🔐 Generated timestamp and report footer
 
 
-## 4. How It Works (Technical Overview)
+## How It Works (Technical Overview)
 
 - **Frontend:** Vanilla JavaScript, HTML, CSS (no framework overhead) — split into separate, maintainable files rather than one monolithic page.
 - **Charts:** Chart.js for all live visualizations.
-- **Backend / Data:** Firebase (project `factory-monitor-70095`) — real-time database so data entered on one device appears instantly on the manager dashboard on another.
-- **Design:** Dark industrial HUD-style interface (glassmorphism panels, cyan/green/red status colors, monospace + technical fonts) designed to be readable at a glance on the shop floor and in the office.
+- **Backend / Data:** Firebase — real-time database so data entered on one device appears instantly on the manager dashboard on another.
 - **Hosting:** Deployed via Github.
 
-## 5. Scope
-
-- Coverage: 21 SW CNC machines (MSA01–MSA21).
-- Shifts: A, B, C, D.
-- Data granularity: hourly, per machine, per shift.
-
-## 6. Benefits to the Line
+## Benefits to the Line
 
 - **Faster reaction time:** off-target machines are visible immediately, not at shift-end.
 - **Less admin overhead:** no paper forms to transcribe or file.
@@ -142,13 +137,6 @@ The end-of-shift report automatically includes:
 - **Transparency:** one shared source of truth for hourly output across all shifts.
 - **Low cost / no license fees:** built in-house with free-tier tools (Netlify + Firebase), no purchased software.
 
-## 7. Status & Next Steps
-
-This is a working, actively used prototype. Suggested next steps for wider rollout:
-- Gather feedback from team leaders after a trial period on the line.
-- Define user roles/permissions (operator entry vs. manager-only views).
-- Add historical reporting/export (e.g., daily/weekly summary export).
-- Evaluate integrating with existing plant systems if/when needed.
 
 ---
 
