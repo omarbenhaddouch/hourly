@@ -70,11 +70,11 @@ https://omarbenhaddouch.github.io/hourly/dashboard
 - **Top 5 machines by output** ranking.
 - Installable as a PWA (Progressive Web App) — can be added to a phone/tablet home screen and used like a native app, including on iPhone/iPad.
 
-# 🖼️ End-of-Shift Report
+# 🖼️ Report Shift
 
 ## 📸 Report Button
 
-At the end of the shift, click the **Report** button in the top action bar. This function automatically creates a professional **A4 Landscape production report** as a PNG image.
+Anytime or at the end of the shift, click the **Report** button in the top action bar. This function automatically creates a professional **A4 Landscape production report** as a PNG image.
 
 <img width="2048" height="1448" alt="image" src="https://github.com/user-attachments/assets/2ea31d3e-5fb0-4371-9110-3b00d30ccc9b" />
 
@@ -135,8 +135,6 @@ The end-of-shift report automatically includes:
 - **Less admin overhead:** no paper forms to transcribe or file.
 - **Better decisions:** management can see trends (which machines/shifts underperform) and act on data instead of impressions.
 - **Transparency:** one shared source of truth for hourly output across all shifts.
-- **Low cost / no license fees:** built in-house with free-tier tools (Netlify + Firebase), no purchased software.
-
 
 ---
 
