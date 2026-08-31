@@ -131,17 +131,16 @@ The end-of-shift report automatically includes:
 
 ## Benefits to the Line
 
-- **Faster reaction time:** off-target machines are visible immediately, not at shift-end.
 - **Less admin overhead:** no paper forms to transcribe or file.
 - **Better decisions:** management can see trends (which machines/shifts underperform) and act on data instead of impressions.
 - **Transparency:** one shared source of truth for hourly output across all shifts.
-
----
 
 # 👨‍💻 Developed By
 
 **Omar Ben Haddouch**
 
----
+# License
 
-⭐ If you find this project useful, feel free to improve it, add new production features, and adapt it to other manufacturing lines.
+This project was developed for educational and professional portfolio purposes.
+
+© 2026 All Rights Reserved.
