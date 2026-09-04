@@ -140,4 +140,5 @@ The end-of-shift report automatically includes:
 **Omar Ben Haddouch**
 
 **License**
+
 This project was developed for educational and professional portfolio purposes.
